@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#335566"
+    tools:context="com.example.pc.attendme.add_student">
+
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:inputType="textPersonName"
+        android:hint="ادخل اسم الطالب"
+        android:ems="10"
+        android:id="@+id/studentt_name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:selectAllOnFocus="false" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="اضافه"
+        android:onClick="save_student"
+        android:id="@+id/button"
+        android:textColor="#FFFFFF"
+        android:background="#4477aa"
+        android:textSize="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="ادخل ID"
+        android:ems="10"
+        android:id="@+id/studentt_id"
+        android:layout_below="@+id/studentt_name"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+</RelativeLayout>

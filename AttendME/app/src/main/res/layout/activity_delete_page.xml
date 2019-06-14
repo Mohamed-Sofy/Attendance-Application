@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.attendme.delete_page"
+    android:background="#335566">
+
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:id="@+id/frameLayout2">
+
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:inputType="textPersonName"
+            android:hint="ادخل ID"
+            android:ems="10"
+            android:id="@+id/delete_5"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            />
+
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="مسح"
+        android:textSize="60dp"
+        android:onClick="btn_del"
+        android:background="#4477AA"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="35dp"/>
+
+</RelativeLayout>

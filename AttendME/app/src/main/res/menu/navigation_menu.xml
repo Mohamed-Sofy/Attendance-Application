@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+    <item android:id="@+id/search"
+        android:icon="@mipmap/ic_search_black_24dp"
+        android:title="بحث"></item>
+
+    <item android:id="@+id/add"
+        android:icon="@mipmap/ic_person_add_black_24dp"
+        android:title="اضافه عضو "></item>
+
+    <item android:id="@+id/delete"
+        android:icon="@mipmap/ic_delete_black_24dp"
+        android:title="مسح عضو"></item>
+
+    <item android:id="@+id/delete_all_student"
+        android:icon="@mipmap/ic_delete_forever_black_24dp"
+        android:title="مسح كل الاعضاء"></item>
+
+
+    <item android:id="@+id/start"
+        android:icon="@mipmap/ic_star_black_24dp"
+        android:title="بدا التسجيل "></item>
+    </group>
+
+    <item android:title="About Attend Me"></item>
+    
+    <item android:id="@+id/about"
+        android:icon="@mipmap/about"
+        android:title="Attend me"></item>
+
+</menu>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.attendme.show_menus"
+    android:weightSum="1"
+    android:background="#335566">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="68dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" القوائم"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#4477AA"
+        android:textSize="@dimen/abc_action_bar_stacked_max_height"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="0.68">
+
+        <Button
+            android:onClick="edit1"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:text="Edit"
+            android:layout_height="wrap_content"
+            android:background="#4477AA"
+            android:textColor="#FFFFFF"
+            />
+
+
+        <Button
+            android:layout_marginBottom="125dp"
+            android:layout_width="wrap_content"
+            android:text="Edit"
+            android:onClick="edit3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="#4477AA"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_marginBottom="35dp"
+            android:onClick="edit2"
+            android:layout_width="wrap_content"
+            android:text="Edit"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="#4477AA"
+            android:textColor="#FFFFFF" />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:text="Edit"
+            android:onClick="edit4"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="#4477AA"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="410dp"
+            android:id="@+id/show_list"
+            android:layout_marginTop="10dp"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:background="#EFEFFB"
+
+            android:layout_gravity="center_horizontal|top" />
+
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

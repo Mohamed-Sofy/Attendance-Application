@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="تعديل اسم القائمه"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:hint="اسم القائمه"
+        android:ems="10"
+        android:id="@+id/ename"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Done"
+        android:textSize="20dp"
+        android:id="@+id/done"
+        android:background="#4477AA"
+        android:textColor="#FFFFFF"
+
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

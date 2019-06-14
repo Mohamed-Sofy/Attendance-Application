@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="#335566">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/navi_header"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
